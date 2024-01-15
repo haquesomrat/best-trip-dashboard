@@ -591,16 +591,24 @@ video {
   bottom: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .left-\[10px\] {
   left: 10px;
 }
 
 .left-\[19px\] {
   left: 19px;
+}
+
+.left-\[23px\] {
+  left: 23px;
+}
+
+.left-\[3px\] {
+  left: 3px;
+}
+
+.left-\[4px\] {
+  left: 4px;
 }
 
 .right-0 {
@@ -623,52 +631,8 @@ video {
   top: 19px;
 }
 
-.left-\[3\.5px\] {
-  left: 3.5px;
-}
-
 .top-\[2px\] {
   top: 2px;
-}
-
-.left-\[26px\] {
-  left: 26px;
-}
-
-.left-\[25\.5px\] {
-  left: 25.5px;
-}
-
-.left-\[4px\] {
-  left: 4px;
-}
-
-.left-\[3px\] {
-  left: 3px;
-}
-
-.left-\[2px\] {
-  left: 2px;
-}
-
-.left-\[2\.5px\] {
-  left: 2.5px;
-}
-
-.left-\[24px\] {
-  left: 24px;
-}
-
-.left-\[23px\] {
-  left: 23px;
-}
-
-.left-\[5px\] {
-  left: 5px;
-}
-
-.left-\[4\.5px\] {
-  left: 4.5px;
 }
 
 .m-10 {
@@ -747,10 +711,6 @@ video {
   height: 2.5rem;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -763,8 +723,16 @@ video {
   height: 2rem;
 }
 
+.h-\[14px\] {
+  height: 14px;
+}
+
 .h-\[17px\] {
   height: 17px;
+}
+
+.h-\[18px\] {
+  height: 18px;
 }
 
 .h-\[26px\] {
@@ -781,14 +749,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[18px\] {
-  height: 18px;
-}
-
-.h-\[14px\] {
-  height: 14px;
 }
 
 .max-h-\[48px\] {
@@ -811,14 +771,6 @@ video {
   width: 2.5rem;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -829,6 +781,10 @@ video {
 
 .w-\[130px\] {
   width: 130px;
+}
+
+.w-\[14px\] {
+  width: 14px;
 }
 
 .w-\[17px\] {
@@ -859,12 +815,8 @@ video {
   width: 100%;
 }
 
-.w-\[98px\] {
-  width: 98px;
-}
-
-.w-\[14px\] {
-  width: 14px;
+.w-\[140px\] {
+  width: 140px;
 }
 
 .min-w-\[254px\] {
@@ -992,6 +944,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(6px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(6px * var(--tw-space-y-reverse));
+}
+
+.space-x-\[18px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(18px * var(--tw-space-x-reverse));
+  margin-left: calc(18px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .divide-x > :not([hidden]) ~ :not([hidden]) {
