@@ -1,10 +1,10 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./output/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["'Poppins', sans-serif", ...defaultTheme.fontFamily.serif],
+        poppins: ["'Poppins', sans-serif"],
+        inter: ["'Inter', sans-serif"],
       },
       colors: {
         primary: "#F50308",

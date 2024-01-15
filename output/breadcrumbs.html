@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breadcrumbs</title>
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body>
+    <div class="m-10 font-poppins">
+      <ul
+        class="inline-flex items-center gap-3 text-[#8D8D8D] text-sm font-medium"
+      >
+        <li>Dashboard</li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M9 18L15 12L9 6"
+              stroke="#8D8D8D"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </li>
+        <li>API Management</li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M9 18L15 12L9 6"
+              stroke="#8D8D8D"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </li>
+        <li>Umrah API List</li>
+      </ul>
+      <div class="space-y-5">
+        <div class="relative toggle">
+          <div
+            class="toggle__line w-10 h-[18px] bg-[#F1E7E7] rounded-full shadow-inner transition-all ease-in-out duration-300"
+          ></div>
+          <div
+            class="toggle__dot top-[2px] left-[3px] absolute w-[14px] h-[14px] bg-white rounded-full shadow inset-y-0 transition-all ease-in-out duration-300"
+          ></div>
+        </div>
+        <div class="relative toggle">
+          <div
+            class="toggle__line w-10 h-[18px] bg-[#F1E7E7] rounded-full shadow-inner transition-all ease-in-out duration-300"
+          ></div>
+          <div
+            class="toggle__dot top-[2px] left-[3px] absolute w-[14px] h-[14px] bg-white rounded-full shadow inset-y-0 transition-all ease-in-out duration-300"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="./toggle.js"></script>
+  </body>
+</html>

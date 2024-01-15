@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table - layout</title>
+    <link rel="stylesheet" href="./tailwind.css" />
+  </head>
+  <body>
+    <div class="m-8 font-poppins font-normal overflow-x-scroll">
+      <table class="table-auto w-full text-base text-[#494949] py-5">
+        <thead>
+          <tr
+            class="bg-[#FFF6F6] rounded text-left h-[56px] text-sm font-medium text-[#777]"
+          >
+            <th class="p-5">
+              <div class="inline-flex gap-[10px] justify-center">
+                <label>
+                  <input
+                    class="h-[17px] w-[17px] accent-[#F50308] cursor-pointer"
+                    type="checkbox"
+                  />
+                </label>
+                <p>Name</p>
+              </div>
+            </th>
+            <th class="p-5">Email</th>
+            <th class="p-5">Phone</th>
+            <th class="p-5">Role</th>
+            <th class="p-5">Status</th>
+            <th class="p-5">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#F2F2F3] rounded text-xs font-medium text-[#A8AAAE]"
+                >Inactive
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#DFF7E9] rounded text-xs font-medium text-[#28C76F]"
+                >Active
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#F2F2F3] rounded text-xs font-medium text-[#A8AAAE]"
+                >Inactive
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#DFF7E9] rounded text-xs font-medium text-[#28C76F]"
+                >Active
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#F2F2F3] rounded text-xs font-medium text-[#A8AAAE]"
+                >Inactive
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#DFF7E9] rounded text-xs font-medium text-[#28C76F]"
+                >Active
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#F2F2F3] rounded text-xs font-medium text-[#A8AAAE]"
+                >Inactive
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#DFF7E9] rounded text-xs font-medium text-[#28C76F]"
+                >Active
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#F2F2F3] rounded text-xs font-medium text-[#A8AAAE]"
+                >Inactive
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+          <tr class="px-5 py-[23px] border-b border-[#BAB7B733]">
+            <td class="p-5">
+              <div class="inline-flex gap-2 items-center">
+                <figure class="h-[26px] w-[26px] rounded-full ml-1">
+                  <img
+                    class="h-[26px] w-[26px] rounded-full object-cover"
+                    src="../assets/images/prof-img.png"
+                    alt="profile image"
+                  />
+                </figure>
+                <p>Md Irfanul Haque</p>
+              </div>
+            </td>
+            <td class="p-5">irfan@besttrip.travel</td>
+            <td class="p-5">+880 1871-249015</td>
+            <td class="p-5">Admin</td>
+            <td class="p-5">
+              <span
+                class="px-3 py-1 bg-[#DFF7E9] rounded text-xs font-medium text-[#28C76F]"
+                >Active
+              </span>
+            </td>
+            <td class="py-5 pl-10">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="4"
+                  height="20"
+                  viewBox="0 0 4 20"
+                  fill="none"
+                >
+                  <path
+                    d="M-8.74228e-08 10C-1.35705e-07 11.1046 0.89543 12 2 12C3.10457 12 4 11.1046 4 10C4 8.89543 3.10457 8 2 8C0.895431 8 -3.91405e-08 8.89543 -8.74228e-08 10Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 2C-1.35705e-07 3.10457 0.89543 4 2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 -3.91405e-08 2 -8.74228e-08C0.895431 -1.35705e-07 -3.91405e-08 0.89543 -8.74228e-08 2Z"
+                    fill="#494949"
+                  />
+                  <path
+                    d="M-8.74228e-08 18C-1.35705e-07 19.1046 0.89543 20 2 20C3.10457 20 4 19.1046 4 18C4 16.8954 3.10457 16 2 16C0.895431 16 -3.91405e-08 16.8954 -8.74228e-08 18Z"
+                    fill="#494949"
+                  />
+                </svg>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
